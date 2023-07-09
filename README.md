@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Furniture Website (Figma to React Code)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React code implementation of a furniture website design by [Soumitra Saha]. The purpose of this repository is to showcase the conversion of the Figma design into a fully functional React application.
 
-## Available Scripts
+## Design
 
-In the project directory, you can run:
+The design for the furniture website was created by [Nait Creative](https://www.figma.com/@naitcreative) in Figma, a popular web-based design tool. The design includes various components such as a home page, products, shopping cart.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following technologies were used to develop this React code implementation:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React: A JavaScript library for building user interfaces.
+- TailwindCSS: Tailwind CSS is a popular utility-first CSS framework
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this React code locally, follow these steps:
 
-### `npm run build`
+1. Clone this repository: `git clone <repository-url>`
+2. Navigate to the project directory: `cd furniture-website`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The `src` directory contains the main source code of the React application.
+- The `components` directory holds individual React components responsible for rendering different pages and sections of the website.
+- The `App.js` file is the entry point of the application and handles routing between different pages.
+- The `index.js` file is responsible for rendering the root component into the DOM.
+- The `index.css` file provides global styling for the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is licensed under the [MIT License](LICENSE).
 
-### `npm run eject`
+## Acknowledgments
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The design for this furniture website was created by [Nait Creative](https://www.figma.com/@naitcreative) and can be found on Figma at [https://www.figma.com/@naitcreative]. The React code implementation was done by [Soumitra Saha (ME)].
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any inquiries or questions regarding this project, please contact [soumitrosaha100@gmail.com].
