@@ -1,9 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useState } from "react";
-import Logo from "../assets/images/logo.svg";
+// import Logo from "../assets/images/logo.svg";
 import { CgMenuRight, CgClose } from "react-icons/cg";
 import { navigation } from "../data";
 import NavMobile from "./NavMobile";
+import { Link } from "react-router-dom";
+import Logo from "../assets/images/logo-no-background.png";
 
 const Header = () => {
 	const [bg, setBg] = useState(false);
@@ -15,12 +17,10 @@ const Header = () => {
 	const mobileNavMenuStyle = mobileNav ? "left-0" : "-left-full";
 	const navItems = navigation.map((item, index) => (
 		<li key={index}>
-			<a
-				href={item.href}
-				className={`text-white capitalize hover:border-b transition-all`}
-			>
+				<Link to={item.href} className={`text-white capitalize hover:border-b transition-all`}>
 				{item.name}
-			</a>
+				</Link>
+			
 		</li>
 	));
 
@@ -39,6 +39,8 @@ const Header = () => {
 				<div className='flex justify-between items-center'>
 					<a href='#'>
 						<img src={Logo} alt='Brand Logo' className='h-6 lg:h-8' />
+						{/* <h1 className="text-gray-50">Azam Timber Mart</h1> */}
+						
 					</a>
 					<div
 						onClick={() => setMobileNav(!mobileNav)}

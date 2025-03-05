@@ -1,6 +1,7 @@
 import React from "react";
 import { features } from "../data";
 
+
 const Features = () => {
 	const { title, subtitle, image, items } = features;
 	return (
